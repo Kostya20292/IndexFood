@@ -35,7 +35,7 @@ body {
   background-color: transparent;
   border: none;
   width: 100%;
-  padding: 13px 20px;
+  padding: 13px 50px 13px 20px;
 }
 
 .search__button {
@@ -89,4 +89,121 @@ body {
   border-radius: 50%;
   display: block;
   padding: 5px;
+}
+
+.slide {
+  border-radius: 20px;
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+}
+
+.slide__text-light {
+  background-color: gray;
+  color: #fff;
+}
+
+.slide__summer {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url("../img/summer.png") no-repeat center / cover;
+}
+
+.slide__content {
+  max-width: 400px;
+}
+
+.slide__title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 51px;
+}
+
+.slide__text {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.button {
+  border-radius: 25px;
+  padding: 12px 60px;
+  display: inline-block;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.button__primary {
+  background: #F47322;
+  color: #fff;
+}
+
+.button__default {
+  background-color: #fff;
+  color: #5F5F61;
+}
+
+.promo {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 32px;
+  min-width: 570px;
+  min-height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #000;
+}
+
+.card__text-light {
+  color: #fff;
+}
+
+.card__image-1 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/card-image-1.png") no-repeat center / cover;
+}
+
+.card__image-2 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/card-image-2.png") no-repeat center / cover;
+}
+
+.card__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+  margin-top: 4px;
+  margin-bottom: 21px;  
+}
+
+.card__description {
+  max-width: 168px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.card__price {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+  margin-bottom: 8px;
+}
+
+.card__delivery {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 25px;
+  display: block;
 }
